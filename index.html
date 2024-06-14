@@ -1,10 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <title>Página Web</title>
+  <title>Tarjeta Bonita</title>
+  <meta name="description" content="Tarjeta de invitacio" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Tito Saul" />
+  <link rel="stylesheet" href="./styles/styles.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
 </head>
+
 <body>
-  Hola Saul
+  <main class="container">
+    <section class="result">
+      <h1 class="result__title title">
+        Your Result
+      </h1>
+      <div class="result__circle">
+        <span>
+          76
+        </span>
+        <small>
+          of 100
+        </small>
+      </div>
+
+      <div class="result__content">
+        <h3>
+          Great
+        </h3>
+        <p>
+          You scored higher than 65% of the people whi have taken these tests.
+        </p>
+      </div>
+    </section>
+
+    <section class="summary">
+      <h2 class="summary__title title">
+        Summary
+      </h2>
+      <ul class="summary__list">
+        <li class="summary__item item">
+          <div class="item__name">
+            <i class="bi bi-lightning-charge"></i>
+            <span>Reaction</span>
+          </div>
+          <p class="item__value">
+            <strong>80</strong>
+            /
+            <span>100</span>
+          </p>
+        </li>
+        <li class="summary__item item">
+          <div class="item__name">
+            <i class="bi bi-snapchat"></i>
+            <span>Memory</span>
+          </div>
+          <p class="item__value">
+            <strong>80</strong>
+            /
+            <span>100</span>
+          </p>
+        </li>
+        <li class="summary__item item">
+          <div class="item__name">
+            <i class="bi bi-chat-dots"></i>
+            <span>Verbal</span>
+          </div>
+          <p class="item__value">
+            <strong>80</strong>
+            /
+            <span>100</span>
+          </p>
+        </li>
+        <li class="summary__item item">
+          <div class="item__name">
+            <i class="bi bi-eye"></i>
+            <span>Visual</span>
+          </div>
+          <p class="item__value">
+            <strong>80</strong>
+            /
+            <span>100</span>
+          </p>
+        </li>
+      </ul>
+
+      <button id="button" class="summary__button">
+        Continue
+      </button>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+  <script src="./js/main.js"></script>
 </body>
+
 </html>
